@@ -1,0 +1,20 @@
+body
+{
+	font-family: 'Cabin', sans-serif;
+}
+
+footer
+{
+    font-size: 0.75em;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    color: #ccc;
+}
+
+#fb
+{
+	width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
