@@ -30,6 +30,33 @@ div#about
 	padding-right: 10px;
 }
 
+.proj
+{
+	position: relative;
+	left: 35px;
+	border-color: gray;
+	border-width: 3px;
+	border-style: outset;
+	opacity: 0.4;
+}
+
+.proj:hover
+{
+	opacity: 1.0;
+}
+
+#pancakes
+{
+	width: 13%;
+	height: 13%;
+}
+
+#triangle
+{
+	width: 35%;
+	height: 35%;
+}
+
 footer
 {
     font-size: 0.75em;
