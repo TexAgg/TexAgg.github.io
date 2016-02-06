@@ -9,6 +9,26 @@ header
 	/*background: #809fff;*/
 }
 
+div#about
+{
+	/*position: relative;*/
+	overflow: auto;
+}
+
+#about_txt
+{
+	position: relative;
+}
+
+#me
+{
+	/*position: absolute;*/
+	float: left;
+	width: 5%;
+	height: 5%;
+	padding-right: 10px;
+}
+
 footer
 {
     font-size: 0.75em;
