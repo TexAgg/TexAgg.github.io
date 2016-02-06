@@ -57,6 +57,12 @@ div#about
 	height: 13%;
 }
 
+#resume_img
+{
+	width: 13%;
+	height: 13%;	
+}
+
 footer
 {
     font-size: 0.75em;
