@@ -38,6 +38,8 @@ div#about
 	border-width: 3px;
 	border-style: outset;
 	opacity: 0.4;
+	width: 13%;
+	height: 13%;
 }
 
 .proj:hover
@@ -45,6 +47,7 @@ div#about
 	opacity: 1.0;
 }
 
+/*
 #pancakes
 {
 	width: 13%;
@@ -62,6 +65,7 @@ div#about
 	width: 13%;
 	height: 13%;	
 }
+*/
 
 footer
 {
