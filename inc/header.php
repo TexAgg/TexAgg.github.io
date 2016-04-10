@@ -1,4 +1,3 @@
-<!Doctype html>
 <html>
 <head>
 	<title>Matt Gaikema</title>
@@ -21,3 +20,9 @@
 
 	</script>	
 </head>
+<body>
+	
+	<header>
+		<h1>Matt Gaikema</h1>
+		<h2>Mathematician & Programmer</h2>
+	</header>
