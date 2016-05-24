@@ -7,7 +7,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
 	<link rel='icon' href='https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/092/2c5/35c85cc.jpg'></link>
-	<!--<link rel='stylesheet' type='text/css' href='styles/bootstrap.min.css'></link>-->
 	<link rel='stylesheet' type='text/css' href='styles/style.css'></link>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
@@ -33,7 +32,9 @@
 
 <body>
 	
+	<a href="index.php">
 	<header>
 		<h1>Matt Gaikema</h1>
 		<h2>Mathematician & Programmer</h2>
 	</header>
+	</a>
