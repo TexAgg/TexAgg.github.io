@@ -5,7 +5,8 @@
 ?>
 <div id='about'>
 	<h4>About me</h4>
-	<img id='me' src='https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/092/2c5/35c85cc.jpg'></img>
+	<img id='me' src='https://dl.dropboxusercontent.com/s/80x7ubbkilq7ojz/me.jpg?dl=0'></img>
+	<br></br>
 	<p id='about_txt'>
 		I am a sophomore studying Computer Science and Applied Mathematics
 		at Texas A&M.
