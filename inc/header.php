@@ -38,9 +38,11 @@
 		<h2>Mathematician & Programmer</h2>
 	</header>
 	<!--</a>-->
-	<ul class="nav nav-tabs">
-  		<li role="presentation" class="about"<?php if ($section=="about"){echo " on";} ?>"><a href="index.php">About me</a></li>
-  		<li role="presentation" class="projects"<?php if ($section=="projects"){echo " on";} ?>"><a href="projects.php">Projects</a></li>
-  		<li role="presentation" class="skills"<?php if ($section=="skills"){echo " on";} ?>"><a href="skills.php">Skills</a></li>
-  		<li role="presentation" class="resume"<?php if ($section=="resume"){echo " on";} ?>"><a href="resume.php">Resume</a></li>
-	</ul>
+	<nav class="navbar navbar-default" role="navigation">
+		<ul class="nav nav-tabs">
+			<li role="presentation" class="about"<?php if ($section=="about"){echo " on";} ?>"><a href="index.php">About me</a></li>
+			<li role="presentation" class="projects"<?php if ($section=="projects"){echo " on";} ?>"><a href="projects.php">Projects</a></li>
+			<li role="presentation" class="skills"<?php if ($section=="skills"){echo " on";} ?>"><a href="skills.php">Skills</a></li>
+			<li role="presentation" class="resume"<?php if ($section=="resume"){echo " on";} ?>"><a href="resume.php">Resume</a></li>
+		</ul>
+	</nav>
