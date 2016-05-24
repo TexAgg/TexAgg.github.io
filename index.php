@@ -1,24 +1,19 @@
 <?php 
 	$pageTitle = "Matt Gaikema";
-	$section = null;
+	$section = about;
 	include("inc/header.php");
 ?>
-<!--<div class="header">
-	<div class="wrapper">
-		<ul class="nav">
-   			<li class="about"<?php if ($section=="about"){echo " on";} ?>"><a href="about.php">About me</a></li>
-			<li class="projects"<?php if ($section=="projects"){echo " on";} ?>"><a href="projects.php">Projects</a></li>
-			<li class="skills"<?php if ($section=="skills"){echo " on";} ?>"><a href="skills.php">Skills</a></li>
-			<li class="resume"<?php if ($section=="resume"){echo " on";} ?>"><a href="resume.php">Resume</a></li>
-		</ul>
-	</div>
-</div>-->
-<ul class="nav nav-tabs">
-  <li role="presentation" class="about"<?php if ($section=="about"){echo " on";} ?>"><a href="about.php">About me</a></li>
-  <li role="presentation" class="projects"<?php if ($section=="projects"){echo " on";} ?>"><a href="projects.php">Projects</a></li>
-  <li role="presentation" class="skills"<?php if ($section=="skills"){echo " on";} ?>"><a href="skills.php">Skills</a></li>
-  <li role="presentation" class="resume"<?php if ($section=="resume"){echo " on";} ?>"><a href="resume.php">Resume</a></li>
-</ul>
+<div id='about'>
+	<h4>About me</h4>
+	<img id='me' src='https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/092/2c5/35c85cc.jpg'></img>
+	<p id='about_txt'>
+		I am a sophomore studying Computer Science and Applied Mathematics
+		at Texas A&M.
+		I am fascinated by the close connection between mathematics and computer science,
+		especially mathematical algorithms.
+		I mostly program in C++, JavaScript, and R, but I have recently been doing a lot with Mathematica and C#.
+	</p>
+</div>
 <?php
 	include("inc/footer.php");
 ?>	
