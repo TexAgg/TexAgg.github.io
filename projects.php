@@ -3,10 +3,10 @@
 	$section = "projects";
 	include("inc/header.php");
 ?>
-	<div id='projects'>
-		<h4>Projects</h4>
+	<div id='projects' class="container">
+		<h3>Projects</h3>
 		<div id='acc'>
-			<h5>Aggie Coding Club Website</h5>
+			<h4>Aggie Coding Club Website</h4>
 			<p>
 			I helped design and implement the website for <a href='http://aggiecodingclub.com/'>
 			Aggie Coding Club.</a>
@@ -14,13 +14,13 @@
 			</p>
 		</div>
 		<div id='pme'>
-			<h5>Pi Mu Epsilon</h5>
+			<h4>Pi Mu Epsilon</h4>
 			<p>
 			Official Webmaster for Pi Mu Epsilon, the mathematics honor society at my school.
 			</p>
 		</div>
 		<div id='flap'>
-			<h5>Flap God 2</h5>
+			<h4>Flap God 2</h4>
 			<p>
 			Based on <a href='https://github.com/TexAgg/FlapGod'>Flap God,</a> Flap God 2
 			is a game about <a href='https://en.wikipedia.org/wiki/Pancake_sorting'>pancake sorting.</a>
@@ -34,7 +34,7 @@
 			<p>Click <a href='https://github.com/TexAgg/Flap-God-2'>here</a> for the source code.</p>
 		</div>
 		<div id='triangle'>
-			<h5>Triangle Calculator</h5>
+			<h4>Triangle Calculator</h4>
 			<p>
 			Enter three sides of the triangle and, using
 			Heron's formula, this will calculate the area and
@@ -46,7 +46,7 @@
 			<p>Click <a href='https://github.com/TexAgg/TriangleCalculator'>here</a> for the source code.</p>
 		</div>
 		<div id='bubble'>
-			<h5>Bubble</h5>
+			<h4>Bubble</h4>
 			<p>
 			Bubbles will float around aimlessly, heading the opposite direction whenever colliding with a wall or another bubble.
 			Works best on Google Chrome.
@@ -57,7 +57,7 @@
 			<p>Click <a href='https://github.com/TexAgg/Bubble'>here</a> for the source code.</p>
 		</div>
 		<div id='dank'>
-			<h5>Dank Sinatra</h5>
+			<h4>Dank Sinatra</h4>
 			<p>
 			<a href='https://www.facebook.com/profile.php?id=100010461758967&fref=ts'>Dank Sinatra</a> is a Facebook chatbot.
 			He is written in JavaScript (using Node.js) and a smidgen of Python.
@@ -73,7 +73,7 @@
 			</a>
 		</div>
 		<div id='gaikbot'>
-			<h5>GaikBot</h5>
+			<h4>GaikBot</h4>
 			<p>
 			<a href='https://bitbucket.org/gaikema/gaikbot/wiki/Home'>GaikBot</a> is another chatbot, 
 			sort of like the "sequel" to Dank Sinatra.
