@@ -5,7 +5,7 @@
 ?>
 
 <div id='about' class="container">
-	<h4>About me</h4>
+	<h2><?php echo $pageTitle;?></h2>
 	<img id='me' src='https://dl.dropboxusercontent.com/s/80x7ubbkilq7ojz/me.jpg?dl=0'></img>
 	<br></br>
 	<p id='about_txt'>

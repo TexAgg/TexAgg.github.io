@@ -1,24 +1,21 @@
 <?php
 	$pageTitle = "Skills";
-	$section = "Skills";
+	$section = "skills";
 	include("inc/header.php");
 ?>
 
-<div id='skills'>
-	<h4>Skills</h4>
-	<ul><u>Proficient in:</u>
+<div id='skills' class="container">
+	<h2><?php echo $pageTitle;?></h2>
+	<ul class="skills-list"><u>Proficient in:</u>
 		<li>C/C++</li>
 		<li>Microsoft Excel</li>
 		<li>R</li>
 		<li>LaTeX</li>
 		<li>Maple</li>
 	</ul>
-	<ul><u>Familiar with:</u>
+	<ul class="skills-list"><u>Familiar with:</u>
 		<li>JavaScript</li>
-		<li>HTML</li>
-		<li>CSS</li>
 		<li>Java</li>
-		<!--<li>Sage</li>-->
 		<li>Matlab</li>
 		<li>C#</li>
 	</ul>

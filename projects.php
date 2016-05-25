@@ -5,7 +5,7 @@
 ?>
 
 <div id='projects' class="container">
-	<h3>Projects</h3>
+	<h2><?php echo $pageTitle;?></h2>
 	<div id='acc'>
 		<h4>Aggie Coding Club Website</h4>
 		<p>
