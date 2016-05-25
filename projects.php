@@ -9,11 +9,25 @@
 	
 	<div class="panel-group">
 		
+		<div id='gaikbot' class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title"><a data-toggle="collapse" href="#gaikbot-body">GaikBot</a></h4>
+			</div>
+			<div id="gaikbot-body" class="panel-body">
+				<p>
+				<a href='https://bitbucket.org/gaikema/gaikbot/wiki/Home'>GaikBot</a> is another chatbot, 
+				sort of like the "sequel" to Dank Sinatra.
+				He uses the Microsoft Bot Framework to integrate him with various channels, including SMS, Facebook, and Telegram.
+				</p>
+				<iframe src="https://webchat.botframework.com/embed/gaikbot?s=_kROGLOlwLY.cwA.KSI.dyBYCR7BCGOtIE5qj0kSN3V1BWreyDC1oxhn_vAtEG0" style="height: 502px; max-height: 502px;"></iframe>
+			</div>
+		</div>
+		
 		<div id='acc' class="panel panel-default">
 			<div class="panel-heading">
 				<h4 class="panel-title"><a data-toggle="collapse" href="#projects-body">Aggie Coding Club Website</a></h4>
 			</div>
-			<div id="projects-body" class="panel-body">
+			<div id="projects-body" class="panel-body collapse">
 				<p>
 				I helped design and implement the website for <a href='http://aggiecodingclub.com/'>
 				Aggie Coding Club.</a>
@@ -26,7 +40,7 @@
 			<div class="panel-heading">
 				<h4 class="panel-title"><a data-toggle="collapse" href="#pme-body">Pi Mu Epsilon</a></h4>
 			</div>
-			<div id="pme-body" class="panel-body">
+			<div id="pme-body" class="panel-body collapse">
 				<p>
 				Official Webmaster for Pi Mu Epsilon, also known as Math Club, the mathematics honor society at my school.
 				</p>
@@ -37,7 +51,7 @@
 			<div class="panel-heading">
 				<h4 class="panel-title"><a data-toggle="collapse" href="#flap-body">Flap God 2</a></h4>
 			</div>
-			<div id="flap-body" class="panel-body">
+			<div id="flap-body" class="panel-body collapse">
 				<p>
 				Based on <a href='https://github.com/TexAgg/FlapGod'>Flap God,</a> Flap God 2
 				is a game about <a href='https://en.wikipedia.org/wiki/Pancake_sorting'>pancake sorting.</a>
@@ -56,7 +70,7 @@
 			<div class="panel-heading">
 				<h4 class="panel-title"><a data-togle="collapse" href="#triangle-body">Triangle Calculator</a></h4>
 			</div>
-			<div id="triangle-body" class="panel-body">
+			<div id="triangle-body" class="panel-body collapse">
 				<p>
 				Enter three sides of the triangle and, using
 				Heron's formula, this will calculate the area and
@@ -73,7 +87,7 @@
 			<div class="panel-heading">
 				<h4 class="panel-title"><a data-toggle="collapse" href="#bubble-body">Bubble</a></h4>
 			</div>
-			<div id="bubble-body" class="panel-body">
+			<div id="bubble-body" class="panel-body collapse">
 				<p>
 				Bubbles will float around aimlessly, heading the opposite direction whenever colliding with a wall or another bubble.
 				Works best on Google Chrome.
@@ -89,7 +103,7 @@
 			<div class="panel-heading">
 				<h4 class="panel-title"><a data-toggle="collapse" href="#dank-body">Dank Sinatra</a></h4>
 			</div>
-			<div id="dank-body" class="panel-body">
+			<div id="dank-body" class="panel-body collapse">
 				<p>
 				<a href='https://www.facebook.com/profile.php?id=100010461758967&fref=ts'>Dank Sinatra</a> is a Facebook chatbot.
 				He is written in JavaScript (using Node.js) and a smidgen of Python.
@@ -103,20 +117,6 @@
 				<a href='https://www.facebook.com/profile.php?id=100010461758967&fref=ts'>
 				<img class='proj' src='https://www.facebook.com/images/fb_icon_325x325.png'></img></a>
 				</a>
-			</div>
-		</div>
-		
-		<div id='gaikbot' class="panel panel-default">
-			<div class="panel-heading">
-				<h4 class="panel-title"><a data-toggle="collapse" href="#gaikbot-body">GaikBot</a></h4>
-			</div>
-			<div id="gaikbot-body" class="panel-body">
-				<p>
-				<a href='https://bitbucket.org/gaikema/gaikbot/wiki/Home'>GaikBot</a> is another chatbot, 
-				sort of like the "sequel" to Dank Sinatra.
-				He uses the Microsoft Bot Framework to integrate him with various channels, including SMS, Facebook, and Telegram.
-				</p>
-				<iframe src="https://webchat.botframework.com/embed/gaikbot?s=_kROGLOlwLY.cwA.KSI.dyBYCR7BCGOtIE5qj0kSN3V1BWreyDC1oxhn_vAtEG0" style="height: 502px; max-height: 502px;"></iframe>
 			</div>
 		</div>
 	
