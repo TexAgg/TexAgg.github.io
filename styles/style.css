@@ -25,7 +25,7 @@ div#about
 {
 	/*position: absolute;*/
 	/*float: left;*/
-	width: 5%;
+	width: 10%;
 	/*height: 5%;*/
 	padding-right: 10px;
 }
@@ -33,7 +33,7 @@ div#about
 .proj
 {
 	position: relative;
-	left: 35px;
+	/*left: 35px;*/
 	border-color: gray;
 	border-width: 3px;
 	border-style: outset;

@@ -3,7 +3,8 @@
 	$section = about;
 	include("inc/header.php");
 ?>
-<div id='about'>
+
+<div id='about' class="container">
 	<h4>About me</h4>
 	<img id='me' src='https://dl.dropboxusercontent.com/s/80x7ubbkilq7ojz/me.jpg?dl=0'></img>
 	<br></br>
@@ -15,6 +16,7 @@
 		I mostly program in C++, JavaScript, and R, but I have recently been doing a lot with Mathematica and C#.
 	</p>
 </div>
+
 <?php
 	include("inc/footer.php");
 ?>	
