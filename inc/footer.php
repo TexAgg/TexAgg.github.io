@@ -1,5 +1,6 @@
 	<footer>
 		<a href='https://www.facebook.com/matt.gaikema'><img id='fb' src='https://www.facebook.com/images/fb_icon_325x325.png'/></a>
+		<a href="https://github.com/TexAgg"><img id="gh" src="https://dl.dropboxusercontent.com/s/465ict0j7kxuemk/favicon.ico?dl=0"></a>
 		<p>&copy 2016 Matthew Gaikema</p>
 		
 		<!--PayPal donate button-->

@@ -44,5 +44,6 @@
 			<li role="presentation" class="projects<?php if ($section=="projects"){echo " on active";}?>"><a href="projects.php">Projects</a></li>
 			<li role="presentation" class="skills<?php if ($section=="skills"){echo " on active";}?>"><a href="skills.php">Skills</a></li>
 			<li role="presentation" class="resume<?php if ($section=="resume"){echo " on active";}?>"><a href="resume.php">Resume</a></li>
+			<li role="presentation" class="resume<?php if ($section=="connect"){echo " on active";}?>"><a href="connect.php">Contact me</a></li>
 		</ul>
 	</nav>
