@@ -68,7 +68,7 @@
 		
 		<div id='triangle' class="panel panel-default">
 			<div class="panel-heading">
-				<h4 class="panel-title"><a data-togle="collapse" href="#triangle-body">Triangle Calculator</a></h4>
+				<h4 class="panel-title"><a data-toggle="collapse" href="#triangle-body">Triangle Calculator</a></h4>
 			</div>
 			<div id="triangle-body" class="panel-body collapse">
 				<p>
