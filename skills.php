@@ -11,12 +11,12 @@
 		<li>Microsoft Excel</li>
 		<li>R</li>
 		<li>LaTeX</li>
-		<li>Maple</li>
 	</ul>
 	<ul class="skills-list"><u>Familiar with:</u>
 		<li>JavaScript</li>
 		<li>Java</li>
-		<li>Matlab</li>
+		<li>Mathematica</li>
+		<li>PHP</li>
 		<li>C#</li>
 	</ul>
 </div>

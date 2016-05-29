@@ -1,0 +1,11 @@
+{
+    "name": "mgaik/tex-agg.github.io",
+    "description": "My personal website",
+    "authors": [
+        {
+            "name": "Matt G",
+            "email": "matt.gaikema@tamu.edu"
+        }
+    ],
+    "require": {}
+}

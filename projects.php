@@ -38,11 +38,13 @@
 		
 		<div id='pme' class="panel panel-default">
 			<div class="panel-heading">
-				<h4 class="panel-title"><a data-toggle="collapse" href="#pme-body">Pi Mu Epsilon</a></h4>
+				<h4 class="panel-title"><a data-toggle="collapse" href="#pme-body">Math Club</a></h4>
 			</div>
 			<div id="pme-body" class="panel-body collapse">
 				<p>
-				Official Webmaster for Pi Mu Epsilon, also known as Math Club, the mathematics honor society at my school.
+				Official webmaster for Math Club, the umbrella organization for all undergraduate societies within 
+				the Mathematics Departament at Texas A&M.
+				I was unanimously elected, and I created the first website for the club.
 				</p>
 			</div>
 		</div>
