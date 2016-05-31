@@ -6,7 +6,7 @@
 
 <div id='about' class="container">
 	<h2><?php echo $pageTitle;?></h2>
-	<img id='me' src='https://dl.dropboxusercontent.com/s/80x7ubbkilq7ojz/me.jpg?dl=0'></img>
+	<img id='me' src='media/me.jpg'></img>
 	<br></br>
 	<p id='about_txt'>
 		I am a sophomore studying Computer Science and Applied Mathematics
@@ -19,4 +19,4 @@
 
 <?php
 	include("inc/footer.php");
-?>	
+?>		

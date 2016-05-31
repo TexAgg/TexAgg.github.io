@@ -117,7 +117,7 @@
 				For more information, see <a href="https://bitbucket.org/gaikema/danksinatra/wiki/Home">here.</a>
 				</p>
 				<a href='https://www.facebook.com/profile.php?id=100010461758967&fref=ts'>
-				<img class='proj' src='https://www.facebook.com/images/fb_icon_325x325.png'></img></a>
+				<img class='proj' src='media/fb_icon_325x325.png'></img></a>
 				</a>
 			</div>
 		</div>
