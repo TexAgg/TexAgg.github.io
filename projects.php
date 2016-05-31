@@ -23,19 +23,6 @@
 			</div>
 		</div>
 		
-		<div id='acc' class="panel panel-default">
-			<div class="panel-heading">
-				<h4 class="panel-title"><a data-toggle="collapse" href="#projects-body">Aggie Coding Club Website</a></h4>
-			</div>
-			<div id="projects-body" class="panel-body collapse">
-				<p>
-				I helped design and implement the website for <a href='http://aggiecodingclub.com/'>
-				Aggie Coding Club.</a>
-				I worked with a group of about 10 other students.
-				</p>
-			</div>
-		</div>
-		
 		<div id='pme' class="panel panel-default">
 			<div class="panel-heading">
 				<h4 class="panel-title"><a data-toggle="collapse" href="#pme-body">Math Club</a></h4>
@@ -45,6 +32,32 @@
 				Official webmaster for Math Club, the umbrella organization for all undergraduate societies within 
 				the Mathematics Departament at Texas A&M.
 				I was unanimously elected, and I created the first website for the club.
+				</p>
+			</div>
+		</div>
+		
+		<div id="polyroot" class='panel panel-default'>
+			<div class="panel-heading">
+				<h4 class="panel-title"><a data-toggle="collapse" href="#polyroot-body">PolyRoot</a></h4>
+			</div>
+			<div id="polyroot-body" class="panel-body collapse">
+				<p>
+					PolyRoot is a Mathematica library which impliments various 
+					<a href="https://en.wikipedia.org/wiki/Root-finding_algorithm">root-finding algorithms</a>.
+					The source code can be found <a href="https://github.com/TexAgg/PolyRoot">here</a>.
+				</p>
+			</div>
+		</div>
+		
+		<div id='acc' class="panel panel-default">
+			<div class="panel-heading">
+				<h4 class="panel-title"><a data-toggle="collapse" href="#projects-body">Aggie Coding Club Website</a></h4>
+			</div>
+			<div id="projects-body" class="panel-body collapse">
+				<p>
+				I helped design and implement the website for <a href='http://aggiecodingclub.com/'>
+				Aggie Coding Club.</a>
+				I worked with a group of about 10 other students.
 				</p>
 			</div>
 		</div>
