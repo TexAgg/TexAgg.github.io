@@ -40,11 +40,21 @@
 		</header>
 	</div><!--jumbotron-->
 	<nav class="navbar navbar-default" role="navigation">
-		<ul class="nav nav-tabs">
-			<li role="presentation" class="about<?php if ($section=="about"){echo " on active";}?>"><a href="index.php">About me</a></li>
-			<li role="presentation" class="projects<?php if ($section=="projects"){echo " on active";}?>"><a href="projects.php">Projects</a></li>
-			<li role="presentation" class="skills<?php if ($section=="skills"){echo " on active";}?>"><a href="skills.php">Skills</a></li>
-			<li role="presentation" class="resume<?php if ($section=="resume"){echo " on active";}?>"><a href="resume.php">Resume</a></li>
-			<li role="presentation" class="resume<?php if ($section=="connect"){echo " on active";}?>"><a href="connect.php">Contact me</a></li>
-		</ul>
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div><!--navbar-header-->
+		<div id="navbar" class="navbar-collapse collapse">
+			<ul class="nav nav-tabs">
+				<li role="presentation" class="about<?php if ($section=="about"){echo " on active";}?>"><a href="index.php">About me</a></li>
+				<li role="presentation" class="projects<?php if ($section=="projects"){echo " on active";}?>"><a href="projects.php">Projects</a></li>
+				<li role="presentation" class="skills<?php if ($section=="skills"){echo " on active";}?>"><a href="skills.php">Skills</a></li>
+				<li role="presentation" class="resume<?php if ($section=="resume"){echo " on active";}?>"><a href="resume.php">Resume</a></li>
+				<li role="presentation" class="resume<?php if ($section=="connect"){echo " on active";}?>"><a href="connect.php">Contact me</a></li>
+			</ul>
+		</div><!--navbar-collapse-->
 	</nav>
