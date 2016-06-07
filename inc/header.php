@@ -7,7 +7,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
 	<link rel='icon' href='https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/005/092/2c5/35c85cc.jpg'></link>
-	<link rel='stylesheet' type='text/css' href='styles/style.css'></link>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
 	
@@ -18,6 +17,8 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	
+	<link rel='stylesheet' type='text/css' href='styles/style.css'></link>
+
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -32,12 +33,12 @@
 
 <body>
 	
-	<!--<a href="index.php">-->
-	<header>
-		<h1>Matt Gaikema</h1>
-		<h2>Mathematician & Programmer</h2>
-	</header>
-	<!--</a>-->
+	<div class="jumbotron">
+		<header>
+			<h1>Matt Gaikema</h1>
+			<h2>Mathematician & Programmer</h2>
+		</header>
+	</div><!--jumbotron-->
 	<nav class="navbar navbar-default" role="navigation">
 		<ul class="nav nav-tabs">
 			<li role="presentation" class="about<?php if ($section=="about"){echo " on active";}?>"><a href="index.php">About me</a></li>

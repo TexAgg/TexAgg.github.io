@@ -1,5 +1,5 @@
 	<footer>
-		<a href='https://www.facebook.com/matt.gaikema'><img id='fb' src='media/fb_icon_325x325.png'/></a>
+		<!--<a href='https://www.facebook.com/matt.gaikema'><img id='fb' src='media/fb_icon_325x325.png'/></a>-->
 		<a href="https://github.com/TexAgg"><img id="gh" src="media/github.ico"></a>
 		<p>&copy 2016 Matthew Gaikema</p>
 		

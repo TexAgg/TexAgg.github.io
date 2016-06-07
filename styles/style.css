@@ -10,6 +10,16 @@ header
 	/*background: #809fff;*/
 }
 
+.navbar
+{
+	margin-bottom: 0;
+}
+
+.jumbotron
+{
+	margin-bottom: 0;
+}
+
 div#about
 {
 	/*position: relative;*/

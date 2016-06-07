@@ -15,9 +15,9 @@
 			</div>
 			<div id="gaikbot-body" class="panel-body">
 				<p>
-				<a href='https://bitbucket.org/gaikema/gaikbot/wiki/Home'>GaikBot</a> is another chatbot, 
+				<a href='https://bitbucket.org/gaikema/gaikbot/wiki/Home'>GaikBot</a> is a chatbot, 
 				sort of like the "sequel" to Dank Sinatra.
-				He uses the Microsoft Bot Framework to integrate him with various channels, including SMS, Facebook, and Telegram.
+				He is written in C#, and uses the Microsoft Bot Framework to integrate him with various channels, including SMS, Facebook, and Telegram.
 				</p>
 				<iframe src="https://webchat.botframework.com/embed/gaikbot?s=_kROGLOlwLY.cwA.KSI.dyBYCR7BCGOtIE5qj0kSN3V1BWreyDC1oxhn_vAtEG0" style="height: 502px; max-height: 502px;"></iframe>
 			</div>
@@ -31,7 +31,7 @@
 				<p>
 				Official webmaster for Math Club, the umbrella organization for all undergraduate societies within 
 				the Mathematics Departament at Texas A&M.
-				I was unanimously elected, and I created the first website for the club.
+				I was unanimously elected, and I created the first website for the club from scratch.
 				</p>
 			</div>
 		</div>
