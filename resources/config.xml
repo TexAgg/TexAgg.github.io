@@ -77,4 +77,36 @@ Click <a href='https://github.com/TexAgg/Bubble'>here</a> for the source code.]]
 						<id>dank</id>
 				</item>
 		</projects>
+		<contact>
+				<item>
+						<name>LinkedIn</name>
+						<display>LinkedIn</display>
+						<url>https://www.linkedin.com/in/matthew-gaikema-2607b9a3</url>
+				</item>
+				<item>
+						<name>Github</name>
+						<display>Github</display>
+						<url>https://github.com/TexAgg</url>
+				</item>
+				<item>
+						<name>Email</name>
+						<display>mgaikema1@gmail.com</display>
+						<url>mailto:mgaikema1@gmail.com</url>
+				</item>
+		</contact>
+		<skills>
+				<proficient>
+						<item>C/C++</item>
+						<item>Microsoft Excel</item>
+						<item>LaTeX</item>
+						<item>R</item>
+				</proficient>
+				<familiar>
+						<item>JavaScript</item>
+						<item>Java</item>
+						<item>Mathematica</item>
+						<item>PHP</item>
+						<item>C#</item>
+				</familiar>
+		</skills>
 </root>

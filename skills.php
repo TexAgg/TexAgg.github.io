@@ -4,8 +4,10 @@
 	include("inc/header.php");
 ?>
 
-<div id='skills' class="container">
-	<h2><?php echo $pageTitle;?></h2>
+<div id='skills' class="container panel panel-default">
+	<div class="panel-heading">
+		<h2><?php echo $pageTitle;?></h2>
+	</div>
 	<ul class="skills-list"><u>Proficient in:</u>
 		<li>C/C++</li>
 		<li>Microsoft Excel</li>
