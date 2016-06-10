@@ -25,13 +25,15 @@
 		
 		<div id='pme' class="panel panel-default">
 			<div class="panel-heading">
-				<h4 class="panel-title"><a data-toggle="collapse" href="#pme-body">Math Club</a></h4>
+				<h4 class="panel-title"><a data-toggle="collapse" href="#pme-body">Math Club Website</a></h4>
 			</div>
 			<div id="pme-body" class="panel-body collapse">
 				<p>
-				Official webmaster for Math Club, the umbrella organization for all undergraduate societies within 
+				I am the Official webmaster for Math Club, the umbrella organization for all undergraduate societies within 
 				the Mathematics Departament at Texas A&M.
-				I was unanimously elected, and I created the first website for the club from scratch.
+				I was unanimously elected, and I created the first website for the club from scratch,
+				which is currently hosted <a href="https://peaceful-atoll-84937.herokuapp.com/">here</a>
+				but will soon be hosted on the Math Department servers.
 				</p>
 			</div>
 		</div>
