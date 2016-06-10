@@ -1,6 +1,10 @@
 <?php
 	$pageTitle = "Projects";
 	$section = "projects";
+
+	$xml = simplexml_load_file("resources/config.xml");
+	//var_dump($xml);
+
 	include("inc/header.php");
 ?>
 
@@ -55,7 +59,7 @@
 			<div class="panel-heading">
 				<h4 class="panel-title"><a data-toggle="collapse" href="#projects-body">Aggie Coding Club Website</a></h4>
 			</div>
-			<div id="projects-body" class="panel-body collapse">
+			<div id="acc-body" class="panel-body collapse">
 				<p>
 				I helped design and implement the website for <a href='http://aggiecodingclub.com/'>
 				Aggie Coding Club.</a>
