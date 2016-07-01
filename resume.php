@@ -11,10 +11,10 @@
 
 	<p>
 	<!--<a href='media/resume.pdf'><img id='resume_img' class='proj' src='media/resume.png'></img></a>-->
-	<a href='https://www.dropbox.com/s/4ewaxn9swmk8zm7/resume.pdf?dl=0'><img id='resume_img' class='proj' src='media/resume.png'></img></a>
+	<a href='https://www.dropbox.com/s/p2rpwhtxd8yghaf/main.pdf?dl=0'><img id='resume_img' class='proj' src='media/resume.png'></img></a>
 	<br></br>		
 	To download a copy of my resume, click 
-	<a href='https://dl.dropboxusercontent.com/s/4ewaxn9swmk8zm7/resume.pdf?dl=0' download='MattGaikemaResume'>here.</a>
+	<a href='https://dl.dropboxusercontent.com/s/p2rpwhtxd8yghaf/main.pdf?dl=0' download='MattGaikemaResume'>here.</a>
 	</p>
 </div>
 

@@ -22,6 +22,7 @@ header
 #me
 {
 	width: 128px;
+	padding-bottom: 10px;
 }
 
 .proj
@@ -67,3 +68,5 @@ footer
 {
 	/*padding: 0px;	*/
 }
+
+/* http://www.colorzilla.com/gradient-editor/ */
