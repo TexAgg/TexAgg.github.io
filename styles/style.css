@@ -1,6 +1,6 @@
 body
 {
-	/*background-color: #f2f2f2;*/
+	background-color: #f2f2f2;
 }
 
 header
@@ -45,6 +45,23 @@ header
 .proj:hover
 {
 	opacity: 1.0;
+}
+
+.sidebar 
+{
+	/*width: 150px;*/
+	width: auto;
+	float: left; 
+	height: 200px; 
+}
+
+/* http://stackoverflow.com/a/26032279/5415895 */
+@media only screen and (max-width: 760px) 
+{
+	.hidden-phone
+	{
+		display: none;
+	}
 }
 
 footer
