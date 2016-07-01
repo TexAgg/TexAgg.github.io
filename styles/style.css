@@ -25,6 +25,11 @@ header
 	padding-bottom: 10px;
 }
 
+#resume_img
+{
+	margin-top: 10px;
+}
+
 .proj
 {
 	position: relative;
