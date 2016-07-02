@@ -13,7 +13,7 @@
 <!-- Sidebar menu.
 http://jsfiddle.net/TT8uV/2/ -->
 <div class="sidebar span4 hidden-phone">
-	<ul class="nav nav-stacked list-group">
+	<ul id="sidebar-menu" class="nav nav-stacked list-group">
 		<?php
 		for($i = 0; $i<count($projects); $i++)
 		{

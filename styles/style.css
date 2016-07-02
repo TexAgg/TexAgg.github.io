@@ -52,7 +52,12 @@ header
 	/*width: 150px;*/
 	width: auto;
 	float: left; 
-	height: 200px; 
+	height: 200px;
+}
+
+#sidebar-menu
+{
+	width: 13vw;
 }
 
 /* http://stackoverflow.com/a/26032279/5415895 */
