@@ -1,13 +1,13 @@
 <?php
-	$pageTitle = "Projects";
-	$section = "projects";
+$pageTitle = "Projects";
+$section = "projects";
 
-	$xml = simplexml_load_file("resources/config.xml");
-	//var_dump($xml);
-	$projects = $xml->projects->item;
-	//var_dump($projects);
+$xml = simplexml_load_file("resources/config.xml");
+//var_dump($xml);
+$projects = $xml->projects->item;
+//var_dump($projects);
 
-	include("inc/header.php");
+include("inc/header.php");
 ?>
 
 <!-- Sidebar menu.
@@ -61,5 +61,5 @@ http://jsfiddle.net/TT8uV/2/ -->
 </div><!--Projects-->
 
 <?php
-	include("inc/footer.php");
+include("inc/footer.php");
 ?>	

@@ -1,7 +1,7 @@
 <?php
-	$pageTitle = "Contact me";
-	$section = "connect";
-	include("inc/header.php");
+$pageTitle = "Contact me";
+$section = "connect";
+include("inc/header.php");
 ?>
 
 <div id="<?php echo $section;?>" class="container panel panel-default">
@@ -18,5 +18,5 @@
 </div><!--Connect-->
 
 <?php
-	include("inc/footer.php");
+include("inc/footer.php");
 ?>

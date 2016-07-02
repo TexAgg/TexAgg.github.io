@@ -1,7 +1,7 @@
 <?php
-	$pageTitle = "Resume";
-	$section = "resume";
-	include("inc/header.php");
+$pageTitle = "Resume";
+$section = "resume";
+include("inc/header.php");
 ?>
 
 <div id='resume' class="container panel panel-default">
@@ -19,5 +19,5 @@
 </div>
 
 <?php
-	include("inc/footer.php");
+include("inc/footer.php");
 ?>

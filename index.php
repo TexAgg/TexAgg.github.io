@@ -1,7 +1,7 @@
 <?php 
-	$pageTitle = "Matt Gaikema";
-	$section = "about";
-	include("inc/header.php");
+$pageTitle = "Matt Gaikema";
+$section = "about";
+include("inc/header.php");
 ?>
 
 <div id='about' class="container panel panel-default">
@@ -26,5 +26,5 @@
 </div><!--About-->
 
 <?php
-	include("inc/footer.php");
+include("inc/footer.php");
 ?>		
