@@ -11,10 +11,10 @@ include("inc/header.php");
 
 	<p>
 	<!--<a href='media/resume.pdf'><img id='resume_img' class='proj' src='media/resume.png'></img></a>-->
-	<a href='https://www.dropbox.com/s/p2rpwhtxd8yghaf/main.pdf?dl=0'><img id='resume_img' class='proj' src='media/resume.png'></img></a>
+	<a href='media/main.pdf'><img id='resume_img' class='proj' src='media/resume.png'></img></a>
 	<br></br>		
 	To download a copy of my resume, click 
-	<a href='https://dl.dropboxusercontent.com/s/p2rpwhtxd8yghaf/main.pdf?dl=0' download='MattGaikemaResume'>here.</a>
+	<a href='media/main.pdf' download='MattGaikemaResume'>here.</a>
 	</p>
 </div>
 
