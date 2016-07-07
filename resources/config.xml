@@ -31,6 +31,15 @@ but will soon be hosted on the Math Department servers.]]></about>
 						<id>acc</id>
 				</item>
 				<item>
+						<name>IlumiTherapy</name>
+						<about><![CDATA[<a href='http://devpost.com/software/ilumi-therapy'>Ilumi-Therapy</a> is an android app that me and my team created for HackDFW.
+It is based on the concept of Light Therapy, an emerging field in medical science.
+It was created using the <a href='http://ilumi.co/'>Ilumi</a> Smart Bulb SDK, and it won us first place in Ilumi's contest for the most creative use of their SDK at the hackathon.
+The source code can be found <a href='https://github.com/ralphie9224/IlumiApp'>here.</a>]]></about>
+						<display />
+						<id>ilumiapp</id>
+				</item>
+				<item>
 						<name>Flap God 2</name>
 						<about><![CDATA[Based on <a href='https://github.com/TexAgg/FlapGod'>Flap God,</a> Flap God 2
 				is a game about <a href='https://en.wikipedia.org/wiki/Pancake_sorting'>pancake sorting.</a>
