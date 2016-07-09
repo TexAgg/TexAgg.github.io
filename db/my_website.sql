@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost:8889
--- Generation Time: Jul 07, 2016 at 05:23 PM
+-- Generation Time: Jul 09, 2016 at 06:04 PM
 -- Server version: 5.5.41-log
 -- PHP Version: 7.0.0
 
@@ -19,8 +19,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `my_website`
 --
-CREATE DATABASE IF NOT EXISTS `my_website` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `my_website`;
 
 -- --------------------------------------------------------
 
@@ -48,7 +46,8 @@ INSERT INTO `projects` (`projectName`, `htmlId`, `aboutProject`, `display`) VALU
 ('Triangle Calculator', 'triangle', 'Enter three sides of the triangle and, using\r\n				Heron''s formula, this will calculate the area and\r\n				draw the triangle. \r\nClick <a href=''https://github.com/TexAgg/TriangleCalculator''>here</a> for the source code.', '<a href=''https://dl.dropboxusercontent.com/u/222607174/triangle_calculator/index.html'' target=''_blank''>\r\n				<img id=''triangle_img'' class=''proj'' src=''media/triangle.PNG''></img>\r\n				</a>'),
 ('Bubble', 'bubble', 'Bubbles will float around aimlessly, heading the opposite direction whenever colliding with a wall or another bubble.\r\n				Works best on Google Chrome.\r\nClick <a href=''https://github.com/TexAgg/Bubble''>here</a> for the source code.', '<a href=''https://dl.dropboxusercontent.com/u/222607174/Bubble/index.html''>\r\n				<img id=''bubble_img'' class=''proj'' src=''media/bubbles.PNG''></img>\r\n				</a>'),
 ('Dank Sinatra', 'dank', '<a href=''https://www.facebook.com/profile.php?id=100010461758967&fref=ts''>Dank Sinatra</a> is a Facebook chatbot.\r\n				He is written in JavaScript (using Node.js) and a smidgen of Python.\r\n				Type ''\\help'' to see a list of his available commands.\r\n				He also pushes relevant messages to a database, sends me email updates,\r\n				and posts weather updates every 3 hours,\r\n				but new features are constantly being added.\r\n				I hope to one day make him a full-on companion, such as Siri or Watson (albiet not as realistic).\r\n				For more information, see <a href="https://bitbucket.org/gaikema/danksinatra/wiki/Home">here.</a>', '<a href=''https://www.facebook.com/profile.php?id=100010461758967&fref=ts''>\r\n				<img class=''proj'' src=''media/fb_icon_325x325.png''></img></a>\r\n				</a>'),
-('IlumiTherapy', 'ilumiapp', '<a href=''http://devpost.com/software/ilumi-therapy''>Ilumi-Therapy</a> is an android app that me and my team created for HackDFW.\r\nIt is based on the concept of Light Therapy, an emerging field in medical science.\r\nIt was created using the <a href=''http://ilumi.co/''>Ilumi</a> Smart Bulb SDK, and it won us first place in Ilumi''s contest for the most creative use of their SDK at the hackathon.\r\nThe source code can be found <a href=''https://github.com/ralphie9224/IlumiApp''>here.</a>', NULL);
+('IlumiTherapy', 'ilumiapp', '<a href=''http://devpost.com/software/ilumi-therapy''>Ilumi-Therapy</a> is an android app that me and my team created for HackDFW.\r\nIt is based on the concept of Light Therapy, an emerging field in medical science.\r\nIt was created using the <a href=''http://ilumi.co/''>Ilumi</a> Smart Bulb SDK, and it won us first place in Ilumi''s contest for the most creative use of their SDK at the hackathon.\r\nThe source code can be found <a href=''https://github.com/ralphie9224/IlumiApp''>here.</a>', NULL),
+('Markov Text Generator', 'markov', 'A basic Markov text generator written in C++. View the source code <a href="https://github.com/TexAgg/MarkovTextGenerator">here</a>.', NULL);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

@@ -25,6 +25,12 @@ but will soon be hosted on the Math Department servers.]]></about>
 						<id>polyroot</id>
 				</item>
 				<item>
+						<name>Markov Text Generator</name>
+						<about><![CDATA[A basic Markov text generator written in C++. View the source code <a href="https://github.com/TexAgg/MarkovTextGenerator">here</a>.]]></about>
+						<display />
+						<id>markov</id>
+				</item>
+				<item>
 						<name>Aggie Coding Club Website</name>
 						<about><![CDATA[I helped design and implement the website for <a href='http://aggiecodingclub.com/'>Aggie Coding Club.</a> I worked with a group of about 10 other students.]]></about>
 						<display />
