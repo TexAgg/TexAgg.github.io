@@ -7,5 +7,12 @@
             "email": "matt.gaikema@tamu.edu"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "files": [
+            "src/app/utils.php"
+        ]
+    },
+    "require-dev": {
+    }
 }

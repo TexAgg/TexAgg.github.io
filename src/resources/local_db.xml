@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+		<database>
+				<host>127.0.0.1</host>
+				<port>8889</port>
+				<socket />
+				<user>root</user>
+				<password />
+				<db_name>my_website</db_name>
+		</database>
+</root>
