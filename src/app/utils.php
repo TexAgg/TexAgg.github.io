@@ -10,7 +10,8 @@ function getDbParams() {
 		$filename = "/../resources/local_db.xml";
 
 	$xml = simplexml_load_file(__DIR__ . $filename);
-	var_dump($xml);
+	//var_dump($xml->database);
 
 	// Return array of properties.
+	return $xml->database;
 }
