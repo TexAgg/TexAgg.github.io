@@ -2,6 +2,7 @@
 # Added by me
 config/
 src/resources/db.xml
+src/resources/projects.json
 
 # Created by https://www.gitignore.io/api/composer
 
