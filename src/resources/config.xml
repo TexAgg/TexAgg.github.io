@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
 		<projects>
+				<!--Move this to a database.-->
 				<item>
 						<name>GaikBot</name>
 						<about><![CDATA[<a href='https://bitbucket.org/gaikema/gaikbot/wiki/Home'>GaikBot</a> is a chatbot, 
@@ -26,7 +27,8 @@ but will soon be hosted on the Math Department servers.]]></about>
 				</item>
 				<item>
 						<name>Markov Text Generator</name>
-						<about><![CDATA[A basic Markov text generator written in C++. View the source code <a href="https://github.com/TexAgg/MarkovTextGenerator">here</a>.]]></about>
+						<about>A basic Markov text generator written in C++. View the source code &lt;a href="https://github.com/TexAgg/MarkovTextGenerator"&gt;here&lt;/a&gt;.
+I also created an implimentation in PHP &lt;a href="https://bitbucket.org/gaikema/markovbot/overview"&gt;here&lt;/a&gt;.</about>
 						<display />
 						<id>markov</id>
 				</item>
