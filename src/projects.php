@@ -9,12 +9,14 @@ error_reporting(E_ALL);
 //require __DIR__ . '/../vendor/autoload.php';
 require(__DIR__ . "/app/utils.php");
 
-App\getDbParams();
+$params = App\getDbParams();
 
-$xml = simplexml_load_file("resources/config.xml");
-//var_dump($xml);
-$projects = $xml->projects->item;
-//var_dump($projects);
+$con = new mysqli($params->host, $params->user, $params->password, $params->db_name, intval($params->port), $params->socket)
+	or die ('Could not connect to the database server' . mysqli_connect_error());
+
+//var_dump($con);
+
+$projects = mysqli_query($con, "SELECT * FROM `projects` WHERE 1 ORDER BY `id`") or die (mysqli_error($con));
 
 include("inc/header.php");
 ?>
@@ -24,9 +26,9 @@ http://jsfiddle.net/TT8uV/2/ -->
 <div class="sidebar span4 hidden-phone">
 	<ul id="sidebar-menu" class="nav nav-stacked list-group">
 		<?php
-		for($i = 0; $i<count($projects); $i++)
+		while($project = $projects->fetch_array())
 		{
-			echo "<li class='list-group-item'><a href='projects#" . $projects[$i]->id . "'>" . $projects[$i]->name . "</a></li>";
+			echo "<li class='list-group-item'><a href='projects#" . $project["htmlId"] . "'>" . $project["projectName"] . "</a></li>";
 		}
 		?>
 		<!--<li class="list-group-item list-group-item-info"><a href="#">Top</a></li>-->
@@ -41,9 +43,10 @@ http://jsfiddle.net/TT8uV/2/ -->
 
 	<div class="panel-group">	
 		<?php
-		for($i = 0; $i < count($projects); $i++)
+		$projects->data_seek(0);
+		while($project = $projects->fetch_array())
 		{
-			$id = $projects[$i]->id;
+			$id = $project["htmlId"];
 
 			echo "<div id='".$id."' class='panel panel-default'>";
 			
@@ -52,15 +55,15 @@ http://jsfiddle.net/TT8uV/2/ -->
 			// Title.
 			echo "<h4 class='panel-title'>";
 			//echo "<a data-toggle='collapse' href='#".$id."-body'>";
-			echo $projects[$i]->name;
+			echo $project["projectName"];
 			//echo "</a>";
 			echo "</h4>";
 			// End heading.
 			echo "</div>";
 
 			echo "<div id='".$id."' class='panel-body'>";
-			echo "<p>".$projects[$i]->about."</p>";
-			echo $projects[$i]->display;
+			echo "<p>".$project["aboutProject"]."</p>";
+			echo $project["display"];
 
 			echo "</div>";
 		}
