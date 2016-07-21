@@ -18,3 +18,6 @@ RewriteRule ^(.*)$ /src/$1
 # followed by / then the main file for your site, index.php, index.html, etc. 
 RewriteCond %{HTTP_HOST} ^(www.)?mattgaikema.com$ 
 RewriteRule ^(/)?$ src/index.php [L]
+
+
+# http://stackoverflow.com/a/30334792/5415895
