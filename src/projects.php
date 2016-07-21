@@ -2,10 +2,6 @@
 $pageTitle = "Projects";
 $section = "projects";
 
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
 $xml = simplexml_load_file("resources/config.xml");
 //var_dump($xml);
 $projects = $xml->projects->item;
