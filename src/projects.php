@@ -9,17 +9,9 @@ error_reporting(E_ALL);
 */
 
 require __DIR__ . '/../vendor/autoload.php';
-//echo phpversion();
 
-$params = App\getDbParams();
-//var_dump($params);
 $db = new App\Firebase($params->url, $params->secret);
-$db->getData("projects");
-
-$xml = simplexml_load_file("resources/config.xml");
-//var_dump($xml);
-$projects = $xml->projects->item;
-//var_dump($projects);
+$projects = $db->getData("projects")->item;
 
 include("inc/header.php");
 ?>
@@ -63,7 +55,8 @@ http://jsfiddle.net/TT8uV/2/ -->
 
 			echo "<div id='".$id."' class='panel-body'>";
 			echo "<p>".$projects[$i]->about."</p>";
-			echo $projects[$i]->display;
+			if(isset($projects[$i]->display))
+				echo $projects[$i]->display;
 			echo "</div>"; // !Panel body.
 
 			echo "</div>"; // !Panel default.
