@@ -19,7 +19,8 @@ $codes = array(
 
 $pageTitle = $codes[$status][0];
 $message = $codes[$status][1];
-if ($pageTitle == false || strlen($status) != 3) {
+if ($pageTitle == false || strlen($status) != 3) 
+{
 	$message = 'Please supply a valid status code.';
 }
 

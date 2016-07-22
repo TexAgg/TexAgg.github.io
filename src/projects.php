@@ -2,6 +2,18 @@
 $pageTitle = "Projects";
 $section = "projects";
 
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+require __DIR__ . '/../vendor/autoload.php';
+//echo phpversion();
+
+$params = App\getDbParams();
+//var_dump($params);
+$db = new App\Firebase($params->url, $params->secret);
+$db->getData("projects");
+
 $xml = simplexml_load_file("resources/config.xml");
 //var_dump($xml);
 $projects = $xml->projects->item;
