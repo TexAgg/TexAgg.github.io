@@ -10,6 +10,7 @@ error_reporting(E_ALL);
 
 require __DIR__ . '/../vendor/autoload.php';
 
+$params = App\getDbParams();
 $db = new App\Firebase($params->url, $params->secret);
 $projects = $db->getData("projects")->item;
 
