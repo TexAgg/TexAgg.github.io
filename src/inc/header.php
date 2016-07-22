@@ -55,11 +55,11 @@
 		</div><!--navbar-header-->
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav nav-tabs">
-				<li role="presentation" class="about<?php if ($section=="about"){echo " on active";}?>"><a href="index">About me</a></li>
-				<li role="presentation" class="projects<?php if ($section=="projects"){echo " on active";}?>"><a href="projects">Projects</a></li>
-				<li role="presentation" class="skills<?php if ($section=="skills"){echo " on active";}?>"><a href="skills">Skills</a></li>
-				<li role="presentation" class="resume<?php if ($section=="resume"){echo " on active";}?>"><a href="resume">Resume</a></li>
-				<li role="presentation" class="resume<?php if ($section=="connect"){echo " on active";}?>"><a href="connect">Contact me</a></li>
+				<li id="index-nav-li" role="presentation" class="about<?php if ($section=="about"){echo " on active";}?>"><a href="index">About me</a></li>
+				<li id="projects-nav-li" role="presentation" class="projects<?php if ($section=="projects"){echo " on active";}?>"><a href="projects">Projects</a></li>
+				<li id="skills-nav-li" role="presentation" class="skills<?php if ($section=="skills"){echo " on active";}?>"><a href="skills">Skills</a></li>
+				<li id="resume-nav-li" role="presentation" class="resume<?php if ($section=="resume"){echo " on active";}?>"><a href="resume">Resume</a></li>
+				<li id="contact-nav-li" role="presentation" class="resume<?php if ($section=="connect"){echo " on active";}?>"><a href="connect">Contact me</a></li>
 			</ul>
 		</div><!--navbar-collapse-->
 	</nav>

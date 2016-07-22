@@ -54,9 +54,7 @@ http://jsfiddle.net/TT8uV/2/ -->
 			echo "<div class='panel-heading'>";
 			// Title.
 			echo "<h4 class='panel-title'>";
-			//echo "<a data-toggle='collapse' href='#".$id."-body'>";
 			echo $projects[$i]->name;
-			//echo "</a>";
 			echo "</h4>";
 			// End heading.
 			echo "</div>";
