@@ -64,13 +64,14 @@ http://jsfiddle.net/TT8uV/2/ -->
 			echo "<div id='".$id."' class='panel-body'>";
 			echo "<p>".$projects[$i]->about."</p>";
 			echo $projects[$i]->display;
+			echo "</div>"; // !Panel body.
 
-			echo "</div>";
+			echo "</div>"; // !Panel default.
 		}
 		?>
-	</div><!--Panel-group-->
+	</div><!--!Panel-group-->
 	
-</div><!--Projects-->
+</div><!--!Projects-->
 
 <?php
 include("inc/footer.php");
