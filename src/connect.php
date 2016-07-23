@@ -14,6 +14,7 @@ include("inc/header.php");
 		<li>
 			<a href='mailto:mgaikema1@gmail.com'>mgaikema1@gmail.com</a>
 		</li>
+		<li><a href='https://telegram.me/gaikema'>Telegram</a></li>
 	</ul>
 </div><!--Connect-->
 
