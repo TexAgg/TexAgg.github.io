@@ -9,6 +9,7 @@
     ],
     "homepage": "http://mattgaikema.com/",
     "require": {
+        "php": ">=5.4.0",
         "nategood/httpful": "^0.2.20"
     },
     "autoload": {

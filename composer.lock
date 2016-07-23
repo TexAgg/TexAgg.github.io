@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "76fecff9db4793e8df794600a4766e1b",
-    "content-hash": "7fe280c8ed9ca73415843d0230e11ce3",
+    "hash": "4e4b9bc8bbc815f2afd0c0719c649fbd",
+    "content-hash": "6a6697ab9f525f54369147ba8baba07f",
     "packages": [
         {
             "name": "nategood/httpful",
@@ -64,6 +64,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": ">=5.4.0"
+    },
     "platform-dev": []
 }
