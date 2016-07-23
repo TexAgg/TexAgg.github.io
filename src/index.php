@@ -15,7 +15,7 @@ include("inc/header.php");
 		</div><!--media-left-->
 		<div class="media-body">
 			<h3 class="media-heading">About me</h3>
-			I am a sophomore studying Computer Science and Applied Mathematics
+			I am a junior studying Computer Science and Applied Mathematics
 			at Texas A&M.
 			I am fascinated by the close connection between mathematics and computer science,
 			especially mathematical algorithms.
