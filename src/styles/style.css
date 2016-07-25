@@ -71,6 +71,12 @@ header
 	}
 }
 
+/* http://stackoverflow.com/a/18801404/5415895 */
+#resume-iframe
+{
+	max-width: 100%;
+}
+
 footer
 {
     font-size: 0.75em;
