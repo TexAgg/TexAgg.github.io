@@ -10,11 +10,12 @@ include("inc/header.php");
 	</div>
 
 	<p>
-	<!--<a href='media/resume.pdf'><img id='resume_img' class='proj' src='media/resume.png'></img></a>-->
-	<a href='media/main.pdf'><img id='resume_img' class='proj' src='media/resume.png'></img></a>
+	<!-- https://www.dropbox.com/s/p2rpwhtxd8yghaf/main.pdf?dl=0 -->
+	<iframe src='media/resume/main.html' width='595' height='842'></iframe>
+	<!--<a href='media/resume/main.pdf'><img id='resume_img' class='proj' src='media/resume.png'></img></a>-->
 	<br></br>		
-	To download a copy of my resume, click 
-	<a href='media/main.pdf' download='MattGaikemaResume'>here.</a>
+	To download a PDF copy of my resume, click 
+	<a href='media/resume/main.pdf' download='MattGaikemaResume'>here.</a>
 	</p>
 </div>
 
