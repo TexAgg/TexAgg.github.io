@@ -1,4 +1,7 @@
 <?php
+/**
+	@author Matt Gaikema
+*/
 
 namespace App;
 use \Httpful\Request;
@@ -8,11 +11,20 @@ require __DIR__ . '/../../vendor/autoload.php';
 class Firebase 
 {
 	
-	// Database url.
+	/**
+		@var string The base url of the Firebase database.
+	*/
 	private $baseUrl;
-	// Database secret.
+	
+	/**
+		@var string The secret for the Firebase database.
+	*/
 	private $secret;
 
+	/**
+		@param string $url The url for a Firebase database.
+		@param string $secret The secret for a Firebase database.
+	*/
 	public function __construct($url, $secret) 
 	{
 		$this->baseUrl = $url;
