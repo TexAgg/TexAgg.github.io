@@ -12,6 +12,8 @@
         "php": ">=5.4.0",
         "nategood/httpful": "^0.2.20"
     },
+    "require-dev": {
+    },
     "autoload": {
         "psr-4": {
             "App\\": "src/app"
@@ -19,7 +21,5 @@
         "files": [
             "src/app/utils.php"
         ]
-    },
-    "require-dev": {
     }
 }
