@@ -2,7 +2,7 @@
 <head>
 	<title><?php echo($pageTitle);?></title>
 	<meta name='author' content='Matt Gaikema'></meta>
-	<meta name='description' content='My website'></meta>
+	<meta name='description' content='Mathematician and Computer Scientist'></meta>
 	<meta name='keywords' content='Matt,Gaikema,Math,Computers,competent,smart,hirable'></meta>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">

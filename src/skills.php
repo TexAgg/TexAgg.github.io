@@ -20,6 +20,7 @@ include("inc/header.php");
 		<li>Mathematica</li>
 		<li>PHP</li>
 		<li>C#</li>
+		<li>Python</li>
 	</ul>
 </div>
 
