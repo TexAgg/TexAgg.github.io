@@ -1,3 +1,5 @@
+This is the old repository. The source code for my website is now stored [here](https://github.com/TexAgg/website).
+
 # TexAgg.github.io
 
 This is the repository for my [website](http://mattgaikema.com/).
